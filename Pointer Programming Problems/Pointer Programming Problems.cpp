@@ -16,6 +16,7 @@ delete someIntegerorSomething;
  */
 #include "BuildingSpace.h"
 #include "String Printing Problem.h"
+#include "Array Problem.h"
 using namespace std;
 
 // Declaring method that will run the functions required for the building volume problem
@@ -47,7 +48,25 @@ int main(int argc, char* argv[])
     cout << "Value of String variable 'name' after the first function: " + name + "\n";
     printingnamebackwards(name);
 
-    
+    // array problem
+    int *numberArray* = new int[9];
+    *numberArray* (0) = 1;
+    *numberArray* (1) = 10;
+    *numberArray* (2) = 7;
+    *numberArray* (3) = 4;
+    *numberArray* (4) = 2;
+    *numberArray* (5) = 3;
+    *numberArray* (6) = 6;
+    *numberArray* (7) = 8;
+    *numberArray* (8) = 5;
+    *numberArray* (9) = 9;
+
+    // printing original array
+    cout<< "Printing original array before sort.\n";
+    for (int x : *numberArray*)
+    {
+        cout << "x ";
+    }
     return 0;
 }
 

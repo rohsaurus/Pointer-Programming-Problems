@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Array Problem.cpp" />
     <ClCompile Include="BuildingVolumeProblem.cpp" />
     <ClCompile Include="Pointer Programming Problems.cpp" />
     <ClCompile Include="String Printing Problem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array Problem.h" />
     <ClInclude Include="BuildingSpace.h" />
     <ClInclude Include="String Printing Problem.h" />
   </ItemGroup>
